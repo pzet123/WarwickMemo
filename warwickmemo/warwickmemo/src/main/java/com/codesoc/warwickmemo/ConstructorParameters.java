@@ -1,0 +1,13 @@
+package com.codesoc.warwickmemo;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.CONSTRUCTOR)
+public @interface ConstructorParameters {
+    String[] parameterNames();
+    Class<?>[] parameterTypes();
+}

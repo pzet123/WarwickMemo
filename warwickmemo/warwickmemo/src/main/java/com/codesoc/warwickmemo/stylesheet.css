@@ -1,0 +1,29 @@
+.root{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Helvetica";
+    -fx-text-fill: red;
+    -fx-base: rgb(91, 48, 105);
+    -fx-background: rgb(255, 255, 255);
+}
+
+#title{
+    -fx-background-color: rgb(91, 48, 105);
+    -fx-text-fill: white;
+    -fx-font-size: 20pt;
+}
+
+#itemName{
+    -fx-font-size: 16pt;
+}
+
+#moduleCredits{
+    -fx-font-style: italic; 
+}
+
+.sharpButton{
+    -fx-background-radius: 0;
+}
+
+.difficultyButton{
+    -fx-font-weight: bold;
+}
